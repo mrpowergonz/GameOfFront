@@ -1,0 +1,43 @@
+.searchInput {
+    padding: 10px;
+    /* Añade un relleno alrededor del input */
+    border: 1px solid #ccc;
+    /* Añade un borde al input */
+    border-radius: 5px;
+    /* Redondea los bordes del input */
+    width: 200px;
+    /* Establece el ancho del input */
+    margin-right: 10px;
+    /* Ajusta el margen a la derecha */
+    font-size: 14px;
+    /* Establece el tamaño de fuente */
+    width: 755px;
+    height: 32px;
+    margin-bottom: 16px;
+
+}
+
+.searchButton {
+    padding: 10px 20px;
+    /* Añade un relleno alrededor del botón */
+    background-color: #000000;
+    border: 1px solid #fff;
+    /* Color de fondo del botón */
+    color: white;
+    /* Color de texto del botón */
+    border: none;
+    /* Elimina el borde del botón */
+    border-radius: 5px;
+    /* Redondea los bordes del botón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar por encima del botón */
+    font-size: 14px;
+    height: 32px;
+    /* Establece el tamaño de fuente */
+}
+
+.searchButton:hover {
+    background-color: white;
+    color: #000000;
+    /* Cambia el color de fondo al pasar por encima del botón */
+}

@@ -1,0 +1,43 @@
+.characterImgDetails {
+    width: 100%;
+    height: 225px;
+    position: relative;
+    text-align: center;
+}
+
+.characterImgDetails img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailsCharacter h2 {
+
+    font-size: 24px;
+    white-space: nowrap;
+    /* Evita el desbordamiento de texto a la siguiente línea */
+    overflow: hidden;
+    /* Oculta el contenido que se desborda */
+    text-overflow: ellipsis;
+    /* Muestra puntos suspensivos (...) cuando el texto se desborda */
+    /* width: 200px; */
+    /* Ancho máximo del contenedor */
+}
+
+.containerCharacters {
+    overflow-x: hidden;
+}
+
+.container .detailsCharacter p {
+
+    font-size: 13px
+}
+
+.detailsCharacter img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.space {
+    height: 48px;
+}
